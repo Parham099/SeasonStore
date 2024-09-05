@@ -1,0 +1,2 @@
+# SeasonStore
+SeasonStore Spigot Plugin
