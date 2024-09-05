@@ -1,0 +1,16 @@
+title: <aqua>Ranks
+size: 27
+Filter:
+  name: ''
+  type: YELLOW_STAINED_GLASS_PANE
+Items:
+  vip:
+    name: <green>VIP
+    type: DIAMOND_SWORD
+    slot: 17
+    price: 11000
+    lore:
+    - lobby
+    commands:
+    - lp user %player% parent add vip 1M
+    servers: {}

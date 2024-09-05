@@ -1,0 +1,17 @@
+title: <dark_green>Survival
+size: 27
+Filter:
+  name: ''
+  type: YELLOW_STAINED_GLASS_PANE
+Items:
+  vip:
+    name: '<green>Slimefun 100%'
+    type: ENCHANTED_BOOK
+    slot: 13
+    price: 25000
+    lore:
+    - lobby
+    commands:
+    - sf research %player_name% all
+    servers: 
+    - survival

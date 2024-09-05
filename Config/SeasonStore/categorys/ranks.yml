@@ -1,0 +1,348 @@
+title: <aqua>Ranks
+size: 27
+Filter:
+  name: ''
+  type: YELLOW_STAINED_GLASS_PANE
+Items:
+  vip:
+    name: '<aqua>1M <green>VIP <aqua>Rank'
+    type: LEATHER_CHESTPLATE
+    slot: 10
+    price: 15000
+    lore:
+    - '<aqua><bold>Lobby'
+    - '<gold>- <yellow>/fly'
+    - '<aqua><bold>Skymine'
+    - '<gold>- <yellow>/kit [vip]'
+    - '<gold>- <yellow>/backpack [size.2]'
+    - '<gold>- <yellow>/eglow [green]'
+    - '<gold>- <yellow>/afk'
+    - '<aqua><bold>Prison'
+    - '<gold>- <yellow>/ah [2]'
+    - '<gold>- <yellow>/kit [vip]'
+    - '<gold>- <yellow>/afk'
+    - '<gold>- <yellow>/craft'
+    - '<aqua><bold>Survival'
+    - '<gold>- <yellow>/kit [vip]'
+    - '<gold>- <yellow>/afk'
+    - '<gold>- <yellow>/craft'
+    - '<gold>- <yellow>/fly'
+    - ''
+    - '<gold>Price: <yellow>15000<gold> SCoin'    
+    commands:
+    - lp user %player_uuid% parent addtemp vip 1Mo
+    servers: 
+    - skymine
+    - survival
+    - prison
+    - lobby
+  spring:
+    name: '<aqua>1M <dark_purple>Spring <aqua>Rank'
+    type: CHAINMAIL_CHESTPLATE
+    slot: 11
+    price: 25000
+    lore:
+    - '<aqua><bold>Lobby'
+    - '<gold>- <yellow>/fly'
+    - '<aqua><bold>Skymine'
+    - '<gold>- <yellow>/kit [vip/spring]'
+    - '<gold>- <yellow>/backpack [size.3]'
+    - '<gold>- <yellow>/eglow [green/pink/purple]'
+    - '<gold>- <yellow>/afk'
+    - '<gold>- <yellow>/fly'
+    - '<aqua><bold>Prison'
+    - '<gold>- <yellow>/ah [5]'
+    - '<gold>- <yellow>/kit [vip/spring]'
+    - '<gold>- <yellow>/afk'
+    - '<gold>- <yellow>/craft'
+    - '<aqua><bold>Survival'
+    - '<gold>- <yellow>/kit [vip/spring]'
+    - '<gold>- <yellow>/afk'
+    - '<gold>- <yellow>/craft'
+    - '<gold>- <yellow>/fly'
+    - '<gold>- <yellow>/ec'
+    - ''
+    - '<gold>Price: <yellow>25000<gold> SCoin'
+    commands:
+    - lp user %player_uuid% parent addtemp spring 1Mo
+    servers: 
+    - skymine
+    - survival
+    - prison
+    - lobby
+  summer:
+    name: '<aqua>1M <dark_red>Summer <aqua>Rank'
+    type: IRON_CHESTPLATE
+    slot: 12
+    price: 35000
+    lore:
+    - '<aqua><bold>Lobby'
+    - '<gold>- <yellow>/fly'
+    - '<aqua><bold>Skymine'
+    - '<gold>- <yellow>/kit [vip/summer]'
+    - '<gold>- <yellow>/backpack [size.4]'
+    - '<gold>- <yellow>/eglow [red/purple/pink/green]'
+    - '<gold>- <yellow>/afk'
+    - '<gold>- <yellow>/fly'
+    - '<gold>- <yellow>/ec'
+    - '<aqua><bold>Prison'
+    - '<gold>- <yellow>/ah [7]'
+    - '<gold>- <yellow>/kit [vip/summer]'
+    - '<gold>- <yellow>/afk'
+    - '<gold>- <yellow>/craft'
+    - '<gold>- <yellow>/ec'
+    - '<gold>- <yellow>/anvil'
+    - '<gold>- <yellow>/clear'
+    - '<aqua><bold>Survival'
+    - '<gold>- <yellow>/kit [vip/summer]'
+    - '<gold>- <yellow>/afk'
+    - '<gold>- <yellow>/craft'
+    - '<gold>- <yellow>/fly'
+    - '<gold>- <yellow>/ec'
+    - '<gold>- <yellow>/anvil'
+    - ''
+    - '<gold>Price: <yellow>35000<gold> SCoin'
+    commands:
+    - lp user %player_uuid% parent addtemp summer 1Mo
+    servers: 
+    - skymine
+    - survival
+    - prison
+    - lobby
+  fall:
+    name: '<aqua>1M <yellow>Fall <aqua>Rank'
+    type: GOLDEN_CHESTPLATE
+    slot: 13
+    price: 60000
+    lore:
+    - '<aqua><bold>Lobby'
+    - '<gold>- <yellow>/fly'
+    - '<aqua><bold>Skymine'
+    - '<gold>- <yellow>/kit [vip/fall]'
+    - '<gold>- <yellow>/backpack [size.4]'
+    - '<gold>- <yellow>/eglow [all]'
+    - '<gold>- <yellow>/afk'
+    - '<gold>- <yellow>/fly'
+    - '<gold>- <yellow>/day'
+    - '<gold>- <yellow>/night'
+    - '<gold>- <yellow>/ec'
+    - '<aqua><bold>Prison'
+    - '<gold>- <yellow>/ah [8]'
+    - '<gold>- <yellow>/kit [vip/fall]'
+    - '<gold>- <yellow>/afk'
+    - '<gold>- <yellow>/craft'
+    - '<gold>- <yellow>/day'
+    - '<gold>- <yellow>/night'
+    - '<gold>- <yellow>/ec'
+    - '<gold>- <yellow>/invsee'
+    - '<gold>- <yellow>/anvil'
+    - '<aqua><bold>Survival'
+    - '<gold>- <yellow>/kit [vip/fall]'
+    - '<gold>- <yellow>/afk'
+    - '<gold>- <yellow>/craft'
+    - '<gold>- <yellow>/fly'
+    - '<gold>- <yellow>/day'
+    - '<gold>- <yellow>/night'
+    - '<gold>- <yellow>/sun'
+    - '<gold>- <yellow>/ec'
+    - '<gold>- <yellow>/invsee'
+    - '<gold>- <yellow>/anvil'
+    - '<gold>- <yellow>/back'
+    - ''
+    - '<gold>Price: <yellow>60000<gold> SCoin'
+    commands:
+    - lp user %player_uuid% parent addtemp fall 1Mo
+    servers: 
+    - skymine
+    - survival
+    - prison
+    - lobby
+  winter:
+    name: '<aqua>1M <dark_aqua>Winter <aqua>Rank'
+    type: DIAMOND_CHESTPLATE
+    slot: 14
+    price: 80000
+    lore:
+    - '<aqua><bold>Lobby'
+    - '<gold>- <yellow>/fly'
+    - '<gold>- <yellow>/day'
+    - '<gold>- <yellow>/night'
+    - '<aqua><bold>Skymine'
+    - '<gold>- <yellow>/kit [vip/winter]'
+    - '<gold>- <yellow>/backpack [size.4]'
+    - '<gold>- <yellow>/eglow [all]'
+    - '<gold>- <yellow>/afk'
+    - '<gold>- <yellow>/fly'
+    - '<gold>- <yellow>/day'
+    - '<gold>- <yellow>/night'
+    - '<gold>- <yellow>/ec'
+    - '<gold>- <yellow>/invsee'
+    - '<gold>- <yellow>/back'
+    - '<aqua><bold>Prison'
+    - '<gold>- <yellow>/ah [11]'
+    - '<gold>- <yellow>/kit [vip/winter]'
+    - '<gold>- <yellow>/afk'
+    - '<gold>- <yellow>/craft'
+    - '<gold>- <yellow>/day'
+    - '<gold>- <yellow>/night'
+    - '<gold>- <yellow>/skull'
+    - '<gold>- <yellow>/ec'
+    - '<gold>- <yellow>/invsee'
+    - '<gold>- <yellow>/anvil'
+    - '<aqua><bold>Survival'
+    - '<gold>- <yellow>/kit [vip/winter]'
+    - '<gold>- <yellow>/afk'
+    - '<gold>- <yellow>/craft'
+    - '<gold>- <yellow>/fly'
+    - '<gold>- <yellow>/day'
+    - '<gold>- <yellow>/night'
+    - '<gold>- <yellow>/sun'
+    - '<gold>- <yellow>/skull'
+    - '<gold>- <yellow>/godmode'
+    - '<gold>- <yellow>/ec'
+    - '<gold>- <yellow>/invsee'
+    - '<gold>- <yellow>/anvil'
+    - '<gold>- <yellow>/back'
+    - '<gold>- <yellow>/tp'
+    - ''
+    - '<gold>Price: <yellow>80000<gold> SCoin'
+    commands:
+    - lp user %player_uuid% parent addtemp winter 1Mo
+    servers: 
+    - skymine
+    - survival
+    - prison
+    - lobby
+  season:
+    name: '<aqua>1M <dark_green>Season <aqua>Rank'
+    type: NETHERITE_CHESTPLATE
+    slot: 15
+    price: 100000
+    lore:
+    - '<aqua><bold>Lobby'
+    - '<gold>- <yellow>/fly'
+    - '<gold>- <yellow>/day'
+    - '<gold>- <yellow>/night'
+    - '<aqua><bold>Skymine'
+    - '<gold>- <yellow>/kit [vip/season]'
+    - '<gold>- <yellow>/backpack [size.5]'
+    - '<gold>- <yellow>/eglow [all]'
+    - '<gold>- <yellow>/afk'
+    - '<gold>- <yellow>/fly'
+    - '<gold>- <yellow>/day'
+    - '<gold>- <yellow>/night'
+    - '<gold>- <yellow>/skull'
+    - '<gold>- <yellow>/ec'
+    - '<gold>- <yellow>/invsee'
+    - '<gold>- <yellow>/back'
+    - '<gold>- <yellow>/tp'
+    - '<aqua><bold>Prison'
+    - '<gold>- <yellow>/ah [15]'
+    - '<gold>- <yellow>/kit [vip/season]'
+    - '<gold>- <yellow>/afk'
+    - '<gold>- <yellow>/craft'
+    - '<gold>- <yellow>/day'
+    - '<gold>- <yellow>/night'
+    - '<gold>- <yellow>/skull'
+    - '<gold>- <yellow>/ec'
+    - '<gold>- <yellow>/invsee'
+    - '<gold>- <yellow>/hat'
+    - '<gold>- <yellow>/anvil'
+    - '<gold>- <yellow>/iname [colors]'
+    - '<gold>- <yellow>/tp'
+    - '<aqua><bold>Survival'
+    - '<gold>- <yellow>/kit [vip/season]'
+    - '<gold>- <yellow>/afk'
+    - '<gold>- <yellow>/craft'
+    - '<gold>- <yellow>/fly'
+    - '<gold>- <yellow>/day'
+    - '<gold>- <yellow>/night'
+    - '<gold>- <yellow>/sun'
+    - '<gold>- <yellow>/skull'
+    - '<gold>- <yellow>/godmode'
+    - '<gold>- <yellow>/ec'
+    - '<gold>- <yellow>/invsee'
+    - '<gold>- <yellow>/hat'
+    - '<gold>- <yellow>/anvil'
+    - '<gold>- <yellow>/iname [color]'
+    - '<gold>- <yellow>/back'
+    - '<gold>- <yellow>/tp'
+    - ''
+    - '<gold>Price: <yellow>100000<gold> SCoin'
+    commands:
+    - lp user %player_uuid% parent addtemp season 1Mo
+    servers: 
+    - skymine
+    - survival
+    - prison
+    - lobby
+  sponsor:
+    name: '<aqua>1M <aqua>Sponsor <aqua>Rank'
+    type: NETHER_STAR
+    slot: 16
+    price: 200000
+    lore:
+    - '<aqua><bold>Lobby'
+    - '<gold>- <yellow>/fly'
+    - '<gold>- <yellow>/day'
+    - '<gold>- <yellow>/night'
+    - '<aqua><bold>Skymine'
+    - '<gold>- <yellow>/kit [vip/sponsor]'
+    - '<gold>- <yellow>/backpack [size.6]'
+    - '<gold>- <yellow>/eglow [all]'
+    - '<gold>- <yellow>/afk'
+    - '<gold>- <yellow>/fly'
+    - '<gold>- <yellow>/day'
+    - '<gold>- <yellow>/night'
+    - '<gold>- <yellow>/skull'
+    - '<gold>- <yellow>/ec'
+    - '<gold>- <yellow>/invsee'
+    - '<gold>- <yellow>/hat'
+    - '<gold>- <yellow>/back'
+    - '<gold>- <yellow>/tp'
+    - '<gold>- <yellow>/tphere'
+    - '<gold>- <yellow>/jump'
+    - '<aqua><bold>Prison'
+    - '<gold>- <yellow>/ah [20]'
+    - '<gold>- <yellow>/kit [vip/sponsor]'
+    - '<gold>- <yellow>/afk'
+    - '<gold>- <yellow>/craft'
+    - '<gold>- <yellow>/day'
+    - '<gold>- <yellow>/night'
+    - '<gold>- <yellow>/skull'
+    - '<gold>- <yellow>/ec'
+    - '<gold>- <yellow>/invsee'
+    - '<gold>- <yellow>/hat'
+    - '<gold>- <yellow>/anvil'
+    - '<gold>- <yellow>/iname [all codes]'
+    - '<gold>- <yellow>/tp'
+    - '<gold>- <yellow>/tphere'
+    - '<gold>- <yellow>/jump'
+    - '<aqua><bold>Survival'
+    - '<gold>- <yellow>/kit [vip/sponsor]'
+    - '<gold>- <yellow>/afk'
+    - '<gold>- <yellow>/craft'
+    - '<gold>- <yellow>/fly'
+    - '<gold>- <yellow>/day'
+    - '<gold>- <yellow>/night'
+    - '<gold>- <yellow>/sun'
+    - '<gold>- <yellow>/skull'
+    - '<gold>- <yellow>/godmode'
+    - '<gold>- <yellow>/ec'
+    - '<gold>- <yellow>/invsee'
+    - '<gold>- <yellow>/hat'
+    - '<gold>- <yellow>/anvil'
+    - '<gold>- <yellow>/iname [color]'
+    - '<gold>- <yellow>/back'
+    - '<gold>- <yellow>/tp'
+    - '<gold>- <yellow>/tphere'
+    - '<gold>- <yellow>/jump'
+    - ''
+    - '<gold>Price: <yellow>200000<gold> SCoin'
+    commands:
+    - lp user %player_uuid% parent addtemp sponsor 1Mo
+    servers: 
+    - skymine
+    - survival
+    - prison
+    - lobby

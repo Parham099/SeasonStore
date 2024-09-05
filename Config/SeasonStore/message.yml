@@ -1,0 +1,10 @@
+prefix: <gray>[<dark_green>SeasonStore<gray>]
+deny-prem: <dark_red>You Don`t Have Permission For This Action.
+faild-buy: <dark_red>%player_name% <red>Shoma Seke Kafi Baraye Kharid In Vasile Nadarid
+  Pol Mored Niaz Shoma <dark_red>%price% Ast
+give-item: <green>ItemHaye Kharidari Shore Shoma Dar In Game Mode Tahvil dade Shodan
+buy-message: <dark_green>%player_name% <green>Kharid Shoma Movafagh Bod Jahat Faal
+  Shodanesh Toye Yeki Az In GameMode Ha Join Ya Rejoin Konid <dark_green>%servers_names%.
+open-inventory: Store Gui Opened.
+reload: <green>Reload Complete.
+balance: <dark_green>%player_name% <green>Has <dark_green>%coin_balance% <green>SCoin

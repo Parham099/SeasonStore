@@ -1,0 +1,49 @@
+title: "<green><bold>Season Store"
+server-name: skymine
+size: 36
+
+Filter:
+  name: ''
+  type: LIME_STAINED_GLASS_PANE
+
+categorys-slot:
+  - 12
+  - 13
+
+Categorys:
+  ranks:
+    name: '<aqua><bold>Ranks'
+    type: NETHERITE_CHESTPLATE
+    slot: 13
+    lore:
+      - ''
+      - '<yellow>Buy <aqua>Ranks <yellow>In This Category!'
+      - ''
+      - '<yellow>LeftClick For <green>Open'
+  survival:
+    name: '<dark_green><bold>Survival'
+    type: GRASS_BLOCK
+    slot: 12
+    lore:
+      - ''
+      - '<yellow>Buy <aqua>Survival <yellow>Items In This Category!'
+      - ''
+      - '<yellow>LeftClick For <green>Open'
+  skymine:
+    name: '<aqua><bold>SkyMine Soon'
+    type: DIAMOND_ORE
+    slot: 14
+    lore:
+      - ''
+      - '<yellow>Buy <aqua>SkyMine <yellow>Items In This Category!'
+      - ''
+      - '<yellow>LeftClick For <green>Open'
+  prison:
+    name: '<gold><bold>Prison Soon'
+    type: DIAMOND_PICKAXE
+    slot: 22
+    lore:
+      - ''
+      - '<yellow>Buy <aqua>Prison <yellow>Items In This Category!'
+      - ''
+      - '<yellow>LeftClick For <green>Open'
